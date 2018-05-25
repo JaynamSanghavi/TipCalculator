@@ -1,0 +1,89 @@
+body{
+    background:#333 url("images/cutlery.jpg") center center no-repeat;
+    color: #532827;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+#container{
+    width: 480px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background: #e2e2e2;
+    box-shadow: 0 10px 10px -6px  #222;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1{
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ccc;
+}
+
+form{
+    text-align: left;
+}
+
+form label{
+    display: block;
+    margin: 25px 0;
+}
+
+form input, form select{
+    padding: 8px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+form input[type = "text"]{
+    width: 100px;
+}
+
+button{
+    background: #6c2726;
+    color: #fff;
+    border: none;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+button:hover{
+    background: #4c2827;
+    border-bottom-color: #111;
+    cursor: pointer;
+}
+
+button:active{
+    position: relative;
+    top: 1px;
+}
+
+#totalTip{
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#totalTip:before{
+    content: "Tip Amount";
+    font-size: 14px;
+    font-weight: bolder;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip sup{
+    /*Super script by default position is RELATIVE*/
+    font-size: 24px;
+    top: -20px;
+}
+
+#each{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
